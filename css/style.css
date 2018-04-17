@@ -1,0 +1,132 @@
+	* {
+	  margin: 0;
+	  padding: 0;
+	  font-family: 'Roboto', sans-serif;
+	  -webkit-user-select: none;
+		 -moz-user-select: none;
+		  -ms-user-select: none;
+			  user-select: none;
+	  -webkit-transition: .1s all;
+	  transition: .1s all;
+	}
+
+	body {
+		font-family: Arial, Verdana, Helvetica, sans-serif;
+		font-size: 150%;
+		color: #69788E;
+		margin: 10px;
+		background: #e8e8e8;
+	}
+
+	a {
+		text-decoration: none;
+		font-size: 18px;
+	}
+
+	a:link {
+		color: #0070ff;
+	}
+
+	a:visited {
+		color: #0070ff;
+	}
+
+	a:hover:not(.button) {
+		color: green;
+		font-size: 24px;
+	}
+
+	a:active {
+		color: blue;
+	}
+
+	.button {
+		background-color: white;
+		color: black !important;
+		border: 2px solid #4CAF50;
+		padding: 10px 20px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 14px;
+		margin-left:10px;
+	}
+
+	.button:hover {
+		background-color: #4CAF50;
+		color: white;
+	}
+	
+	
+	input[type=file], select {
+		padding: 7px 7px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		cursor: pointer;
+		background: #262626;
+		color: azure;
+	}
+	
+	#upload {
+	 	background-color: white; 
+		color: black; 
+		border: 2px solid #00c0ff;
+		padding: 10px 10px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;
+		cursor: pointer;
+		border-radius: 14px;
+	}
+
+	#upload:hover {
+		background-color: #00c0ff;
+		color: white;
+	}
+
+	#upload:active {
+	  background-color: #3e8e41;
+	}
+	
+	#status {
+		display: none;
+		border: 2px solid #3ca403;
+		width: 400px;
+		background: white;
+		padding: 8px 10px;
+		font-size: 14px;
+	}
+	
+	#filenameupload {
+		color: red;
+		white-space: nowrap; 
+		max-width: 400px; 
+		overflow: hidden;
+		text-overflow: ellipsis; 
+	}
+	
+	#processupload {
+		color: black;
+	}
+	.listdisk {
+		min-width: 400px;
+	}
+	
+	#listing > div {
+		display: block !important;
+		padding: 1px;
+		min-width: 400px;
+	}
+	
+	.buttondelete {
+		color: black;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+		padding: 3px;
+	}
